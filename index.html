@@ -7,127 +7,253 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
-    <title>JedX Learning Platform</title>
+
+    <title>BapackMate | Backpacking Preparation</title>
 
     <!-- Icon Library -->
     <script src="https://unpkg.com/feather-icons"></script>
   </head>
+
   <body>
-    <!-- Navbar Start-->
+    <!-- Navbar Start -->
     <nav class="navbar">
-      <a href="#" class="logo-navbar">Jed<span>X</span></a>
+      <a href="#home" class="logo-navbar">Bapack<span>Mate</span></a>
+
       <div class="navbar-nav">
-        <a href="#">Beranda</a>
-        <a href="#about">Tentang</a>
-        <a href="#course">Kelas</a>
-        <a href="#contact">Kontak</a>
+        <a href="#home">Home</a>
+        <a href="#destination">Destination</a>
+        <a href="#budgeting">Budgeting</a>
+        <a href="#tips">Tips</a>
       </div>
 
       <div class="navbar-extra">
         <a href="#" id="search">
           <i data-feather="search"></i>
         </a>
-        <a id="hamburger-menu" href="#"><i data-feather="menu"></i></a>
+
+        <a id="hamburger-menu" href="#">
+          <i data-feather="menu"></i>
+        </a>
       </div>
     </nav>
-    <!-- Header End -->
+    <!-- Navbar End -->
 
-    <!-- Main Start -->
+    <!-- Hero Section Start -->
     <section class="hero" id="home">
       <main class="content">
-        <h1>Belajar Lebih Mudah, Tumbuh Lebih Cepat</h1>
-        <p>Platform pembelajaran yang membantu kamu belajar dengan mudah, mengembangkan keterampilan, dan mencapai potensi terbaikmu.</p>
-        <a href="" class="cta">Gabung</a>
+        <h1>Plan Your Journey, Explore More</h1>
+
+        <p>
+          BapackMate membantu kamu mempersiapkan perjalanan backpacking dengan
+          rekomendasi destinasi, perencanaan anggaran, dan tips perjalanan yang
+          praktis.
+        </p>
+
+        <a href="#destination" class="cta">Explore Now</a>
       </main>
 
       <div class="hero-image">
-        <img src="/assets/hero.png" alt="" />
+        <img src="/assets/HEROO.png" alt="Backpacking adventure" />
       </div>
     </section>
-    <!-- Main End -->
+    <!-- Hero Section End -->
 
-    <!-- About Section Start -->
-    <section class="about" id="about">
-      <h2>Tentang Kami</h2>
+    <!-- Destination Section Start -->
+    <section class="about" id="destination">
+      <h2>Explore Your Destination</h2>
+
       <div class="row">
         <div class="about-img">
-          <img src="/assets/about.png" alt="" />
+          <img
+            src="/assets/HEROO.png"
+            alt="Beautiful backpacking destination"
+          />
         </div>
+
         <div class="content">
-          <h3>Kenapa memilih JedX Learning Platform?</h3>
+          <h3>Find Your Next Adventure</h3>
+
           <p>
-            JedX Learning Platform adalah platform pembelajaran yang dirancang untuk membantu kamu belajar dengan lebih mudah, fleksibel, dan menyenangkan. Kami menyediakan berbagai kelas dan materi untuk menambah pengetahuan serta
-            mengembangkan keterampilan sesuai minat dan kebutuhanmu. Dengan pengalaman belajar yang sederhana dan mudah dipahami, JedX hadir untuk mendukung setiap langkahmu dalam berkembang dan mencapai potensi terbaik.
+            Temukan berbagai destinasi menarik untuk perjalanan backpacking
+            kamu. Mulai dari wisata alam, kota, hingga tempat-tempat tersembunyi
+            yang cocok untuk dijelajahi dengan budget terbatas.
+          </p>
+
+          <a href="#budgeting" class="cta">Plan Your Trip</a>
+        </div>
+      </div>
+    </section>
+    <!-- Destination Section End -->
+
+    <!-- Budgeting Section Start -->
+    <section class="budgeting" id="budgeting">
+      <h2>Plan Your Budget</h2>
+      <p class="budgeting-description">
+        Prepare your travel budget and enjoy your backpacking journey without
+        worrying about unexpected expenses.
+      </p>
+
+      <!-- Budget Category Cards -->
+      <div class="budget-cards">
+        <div class="budget-card">
+          <i data-feather="truck"></i>
+          <h3>Transportation</h3>
+          <p>
+            Estimate your transportation costs, including tickets and local
+            transport.
+          </p>
+        </div>
+
+        <div class="budget-card">
+          <i data-feather="home"></i>
+          <h3>Accommodation</h3>
+          <p>
+            Plan your spending for hostels, homestays, or other places to stay.
+          </p>
+        </div>
+
+        <div class="budget-card">
+          <i data-feather="coffee"></i>
+          <h3>Food & Drinks</h3>
+          <p>
+            Set a daily budget for meals, snacks, and drinks during your trip.
+          </p>
+        </div>
+
+        <div class="budget-card">
+          <i data-feather="map-pin"></i>
+          <h3>Activities</h3>
+          <p>
+            Prepare a budget for entrance tickets, attractions, and travel
+            activities.
           </p>
         </div>
       </div>
+
+      <!-- Budget Estimate Table -->
+      <div class="budget-table-container">
+        <h3>Example Travel Budget</h3>
+
+        <table class="budget-table">
+          <thead>
+            <tr>
+              <th>Expense Category</th>
+              <th>Estimated Cost</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Transportation</td>
+              <td>Rp500.000</td>
+            </tr>
+
+            <tr>
+              <td>Accommodation</td>
+              <td>Rp300.000</td>
+            </tr>
+
+            <tr>
+              <td>Food & Drinks</td>
+              <td>Rp250.000</td>
+            </tr>
+
+            <tr>
+              <td>Activities</td>
+              <td>Rp150.000</td>
+            </tr>
+
+            <tr>
+              <td>Emergency Fund</td>
+              <td>Rp100.000</td>
+            </tr>
+
+            <tr class="total-row">
+              <td>Total Estimated Budget</td>
+              <td>Rp1.300.000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Budget Tips -->
+      <div class="budget-tips">
+        <h3>Smart Budgeting Tips</h3>
+
+        <ul>
+          <li>Set a maximum budget before starting your trip.</li>
+          <li>Compare transportation and accommodation prices.</li>
+          <li>Prepare an emergency fund for unexpected expenses.</li>
+          <li>Track your daily spending during the journey.</li>
+        </ul>
+      </div>
     </section>
-    <!-- About Section End -->
+    <!-- Budgeting Section End -->
 
-    <!-- Course Section Start -->
-    <section class="course" id="course">
-      <h2>Kelas yang tersedia</h2>
-      <p>Pilih kelas yang sesuai dengan minatmu dan kembangkan keterampilanmu bersama JedX.</p>
+    <!-- Tips Section Start -->
+    <section id="tips" class="contact">
+      <h2>Backpacking Tips</h2>
 
-      <div class="row" id="course-list"></div>
-    </section>
-    <!-- Course Section End -->
-
-    <!-- Contact Section Start -->
-    <section id="contact" class="contact">
-      <h2>Kontak Kami</h2>
-      <p>Pilih kelas yang sesuai dengan minatmu dan kembangkan keterampilanmu bersama JedX.</p>
+      <p>
+        Dapatkan tips dan informasi penting untuk membantu kamu melakukan
+        perjalanan backpacking dengan lebih nyaman dan aman.
+      </p>
 
       <div class="row">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.585720336962!2d107.7222779402832!3d-6.940013493088898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c323777ca3a1%3A0x355eff6734ed9167!2sUniversitas%20Pendidikan%20Indonesia%20-%20Kampus%20UPI%20Cibiru!5e0!3m2!1sen!2sid!4v1787874858376!5m2!1sen!2sid"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="strict-origin-when-cross-origin"
-          class="map"
-        ></iframe>
+        <div class="content">
+          <h3>Prepare Before You Go</h3>
 
-        <form action="">
-          <div class="input-group">
-            <i data-feather="user"> </i>
-            <input type="text" placeholder="nama" />
-          </div>
-          <div class="input-group">
-            <i data-feather="mail"> </i>
-            <input type="text" placeholder="email" />
-          </div>
-          <div class="input-group">
-            <i data-feather="phone"> </i>
-            <input type="number" placeholder="nomor hp" />
-          </div>
+          <p>
+            Pelajari cara memilih perlengkapan perjalanan, mengatur barang
+            bawaan, menghemat pengeluaran, dan mempersiapkan kebutuhan penting
+            sebelum berangkat.
+          </p>
 
-          <button type="submit" class="btn">Kirim pesan</button>
-        </form>
+          <a href="#home" class="cta">Back to Home</a>
+        </div>
+
+        <div class="about-img">
+          <img src="/assets/HEROO.png" alt="Backpacking preparation tips" />
+        </div>
       </div>
     </section>
-    <!-- Contact Section End -->
+    <!-- Tips Section End -->
 
-    <!-- Footer Section Start-->
+    <!-- Footer Section Start -->
     <footer id="footer">
       <div class="socials">
-        <a href="#"><i data-feather="instagram"></i></a>
-        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#">
+          <i data-feather="instagram"></i>
+        </a>
+
+        <a href="#">
+          <i data-feather="twitter"></i>
+        </a>
       </div>
+
       <div class="links">
-        <a href="#home">Beranda</a>
-        <a href="#about">Tentang</a>
-        <a href="#course">kelas</a>
-        <a href="#contact">Kontak</a>
+        <a href="#home">Home</a>
+        <a href="#destination">Destination</a>
+        <a href="#budgeting">Budgeting</a>
+        <a href="#tips">Tips</a>
       </div>
+
       <div>
-        <p>Created by <a href="">Mochamad Irfan Hidayat. | &copy;2026</a></p>
+        <p>Created with Ghira Jilan Zhafira | &copy; 2026 BapackMate</p>
       </div>
     </footer>
-    <!-- Footer Section End-->
+    <!-- Footer Section End -->
 
     <script src="script.js"></script>
+
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
