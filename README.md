@@ -39,7 +39,7 @@ Website BapackMate memiliki beberapa bagian utama:
 
 - HTML
 - CSS
-- JavaScript (belum)
+- JavaScript (masi yang dari jedx)
 - Google Fonts
 
 ## Struktur Folder
